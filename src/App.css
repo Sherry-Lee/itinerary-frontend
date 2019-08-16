@@ -1,22 +1,23 @@
+@import '~fundamental-styles/dist/fundamental-styles-ie11.min.css';
 .App {
   text-align: center;
+  background: url('background.png') no-repeat;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -30,4 +31,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+.fd-form__label, .fd-form__message{
+  text-align: left;
+}
+
+.fd-date-picker .fd-popover{
+  width: 100%;
+}
+
+.form-entry{
+  margin-bottom: 1.5rem;
+}
+
+.fold{
+  font-size: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  right: 1.5rem;
+  position: relative;
+}
+
+.form-entry{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.page-login{
+  width: 20%;
+  margin: 100px auto;
+}
+
+.login-title{
+  text-align: center;
+}
+
+.submit-login{
+  float: right;
+  margin-top: 20px;
+}
+
+.ant-calendar-picker{
+  width: 100%;
+}
+
+.ant-calendar-picker #departDay{
+  height: 36px;
+}
+
+.ant-calendar-picker #departDay input{
+  height: 100%;
+}
+
+.ant-calendar-picker input{
+  color: black;
+  border-color: rgb(169, 169, 169);
+  padding-top: 6px 11px;
+}
+
+.anticon svg {
+  color: #0a6ed1;
 }

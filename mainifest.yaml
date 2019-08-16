@@ -1,0 +1,7 @@
+---
+applications:
+  - name: itinerary-frontend
+    host: itinerary-frontend
+    memory: 256M
+    path: .
+    buildpack: staticfile_buildpack
